@@ -1,0 +1,11 @@
+""" 
+7. Write a python program to remove last item of the given set
+thisset = {"Python", "Django", "JavaScript", “SQL”}
+
+ """
+thisset={"Python", "Django", "JavaScript", "SQL"}
+thisset.remove("SQL")
+print(thisset)
+#====================================OUTPUT==============================================#
+# {'JavaScript', 'Python', 'Django', 'SQL'}
+# {'JavaScript', 'Python', 'Django'}
